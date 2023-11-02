@@ -1,0 +1,52 @@
+body {
+    background: url(library.jpg) no-repeat center center/ cover;
+    height: 95vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.header {
+    background-color: rgb(73, 67, 67);
+    padding: .5rem;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 0 10px;
+}
+
+.main-content {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+p {
+    height: 80px;
+    width: 180px;
+}
+.person{
+    color: rgb(7, 153, 153);
+    padding-bottom: 1.3rem;
+   font-weight: 800;
+}
+#new-quote{
+    padding: .4rem;
+    color: #fff;
+    background: rgb(73, 67, 67);
+    border-radius: 5px;
+    border: none;
+}
+#new-quote:active{
+    background: #0cd3da;
+}
